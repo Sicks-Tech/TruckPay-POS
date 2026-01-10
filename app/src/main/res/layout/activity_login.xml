@@ -41,21 +41,23 @@
             android:layout_marginHorizontal="16dp"
             android:layout_marginTop="50dp"
             android:hint="Insira seu pin"
-            app:boxBackgroundMode="outline"
-            app:boxCornerRadiusTopStart="15dp"
-            app:boxCornerRadiusTopEnd="15dp"
-            app:boxStrokeWidth="0dp"
-            app:endIconDrawable="@drawable/ic_clean_temp"
+            android:textColorHint="@color/black"
             app:boxBackgroundColor="@color/white"
-            app:passwordToggleEnabled="true">
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusTopEnd="15dp"
+            app:boxCornerRadiusTopStart="15dp"
+            app:boxStrokeWidth="0dp"
+            app:hintAnimationEnabled="true"
+            app:hintTextColor="@color/black"
+            app:passwordToggleDrawable="@drawable/ic_visibility"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/black"
+            app:passwordToggleTintMode="src_in">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cornerRadious="20dp"
-                android:inputType="number"
-                android:textColor="@color/black"/>
-
+                android:inputType="number" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
